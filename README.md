@@ -1,3 +1,3 @@
-# gitflow v1.1
+# gitflow 
 A repository for demonstrating Gitflow branching model using Gitflow Extension.
 masterrrr
