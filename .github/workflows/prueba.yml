@@ -31,6 +31,7 @@ jobs:
 #           tag_with_sha: true
           tags: juan960/prueba:${{ github.sha }}
   deploy:
+    needs: [build-and-push-container]
     name: deploy to cluster
     runs-on: ubuntu-latest
     steps:
